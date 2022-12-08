@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+       <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<title>Astronomia</title>
+</head>
+<body>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <section>
+    <div class="wraper">
+      <center>
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#000116;">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="font-size:35px;" href="#">Astrono<span style="color:#add ;">mia</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                  
+               
+                <ul class="navbar-nav" style="margin:0 15px ;">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="font-size: 20px;" style="color:#fff ;">
+                    Sobre
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#Sobre" style="font-size: 20px;">Sobre</a></li>
+                      <li><a class="dropdown-item" href="#O que é?" style="font-size: 20px;">O que é?</a></li>
+                      <li><a class="dropdown-item" href="#Historia" style="font-size: 20px;"  >História</a></li>
+                     
+                      
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="navbar-nav" style="margin:0 15px">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 20px;">
+                      Áreas
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#Área" style="font-size:20px ;">Áreas da Astronomia</a></li>
+                        <li><a class="dropdown-item" href="#Instrumentos" style="font-size:20px ;">Instrumentos de Trabalho</a></li>
+                        <li><a class="dropdown-item" href="#Graduação"style="font-size:20px ;">Graduação</a></li>
+                        
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav" style="margin: 0 15px">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 20px ;">
+                      Competência
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#Competência"style="font-size:20px ;">Competência de Trabalho</a></li>
+                        <li><a class="dropdown-item" href="#Mercado de Trabalho" style="font-size:20px ;">Mercado de Trabalho</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav" style="margin:0 15px ;">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size:20px ;">
+                        Faculdades
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#Faculdade-2"style="font-size:20px ;">Internacionais</a></li>
+                        <li><a class="dropdown-item" href="#Faculdade Nacionais"style="font-size:20px ;">Nacionais</a></li>
+                        <li><a class="dropdown-item" href="#grade" style="font-size:20px ;">Grade Curricular</a></li>
+                        <li><a class="dropdown-item" href="#NotadeCorte"style="font-size:20px ;">Nota de Corte</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="dropdown" style="margin: 0 50px" style="color:black;">
+                    <a class="btn btn-secondary dropdown-toggle" style="background-color:#add;"  href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="font-size:20px ;">
+                      Login
+                    </a>
+                    <form class="dropdown-menu p-4">
+                        <div class="mb-3">
+                          <label for="exampleDropdownFormEmail2" class="form-label">E-mail</label>
+                          <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleDropdownFormPassword2" class="form-label">Senha</label>
+                          <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                            <label class="form-check-label" for="dropdownCheck2">
+                              Lembre-me
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" >Entrar</button>
+                      </form>
+                  </div>
+</center>
+              </div>
+            </div>
+          </nav>
+        </section>
+        <section id="fundo">
+            <img src="../Astronomia2/img/70Z_2108.w023.n001.839B.p1.839.jpg" class="img-fluid" >
+            
+           </div>
+        </section>
+
+
+
+       <!----Sobre---->
+<section id="Sobre">
+    <center>
+    <div class="about">
+    <div class="sobre">
+      <img src="../Astronomia2/img/gif_lua.gif" style="width: auto ;">
+      <div class="about-texto">
+        <h2>Sobre</h2>
+        <div class="card-1">
+    
+    <P>Astronomia é a ciência que estuda o Universo,
+      desde a sua origem e formação aos astros que o compõe e os 
+      fenômenos que nele ocorrem.   
+      Originou-se a partir da observação dos astros
+      e de seu efeito no cotidiano do ser humano, 
+      que desde a pré-história vem utilizando o 
+      conhecimento astronômico acumulado durante o
+      tempo para desenvolver as atividades humanas.
+      <br><br></P>
+      <button type="button">
+        <a  class="button" href="https://brasilescola.uol.com.br/geografia/astronomia.htm" target="_blank">Saiba Mais</a>
+      </button>
+    </div>
+   </div>
+  </div>
+  </center>
+ </section>
+
+
+       <!----o que é?---->
+       <section id="O que é?">
+        <center>
+        <div class="about">
+        <div class="sobre">
+          <div class="about-texto">
+            <h2>O que é ?</h2>
+            <div class="card-1">
+        
+        <P>
+           A astronomia pode ser dividida em subáreas e especialidades por razões didáticas 
+           e metodológicas; um exemplo deste tipo de divisão é o adotado pelo CNPq, conforme 
+           ilustrado no Apêndice.
+           Antes da invenção dos vários tipos de telescópios (para observação de raios gama e 
+           X, ultravioleta, óptico, infravermelho, micro-onda, rádio, etc).
+        </P>
+          <button type="button">
+            <a class="button" href="https://www.significados.com.br/astronomia/" target="_blank">Saiba Mais</a>
+          </button>
+        </div>
+       </div>
+       <img src="../Astronomia2/img/gif-earth.gif">
+      </div>
+    </center>
+     </section>
+  <!----História---->
+  <section id="Historia">
+    <center>
+    <div class="about">
+    <div class="sobre">
+      <img src="../Astronomia2/img/mercurio.gif">
+      <div class="about-texto">
+        <h2>História</h2>
+        <div class="card-1">
+    
+    <P>No início, o conhecimento astronômico estava baseado essencialmente na observação dos astros 
+        e fenômenos visíveis a olho nu (o sol, a lua, odia, a noite, as marés, as fases da lua etc), 
+        e se misturavam ao senso comum, à religião e às lendas, uma vez que vários povos acreditavam 
+        que esses astros eram deuses e que os fenômenos originados por eles dependiam do seu humor ou 
+        vontade.
+    <br><br>
+    Muitas civilizações antigas tratavam os astros como divindades. O estudo dos movimentos dos planetas 
+    e estrelas permitia aos povos antigos a distinção entre épocas de plantio e colheita, por exemplo. 
+    Algumas culturas antigas, como os maias, os chineses, os egípcios e os babilônios, foram capazes de 
+    elaborar complexos calendários baseados no movimento do Sol e outros astros.
+    
+    </P>
+      <button type="button">
+        <a class="button" href="https://mundoeducacao.uol.com.br/fisica/a-historia-astronomia.htm" target="_blank">Saiba Mais</a>
+      </button>
+    </div>
+   </div>
+  </div>
+  </center>
+ </section>
+
+
+
+
+
+ <!--areas--->
+<section id="Área">
+    <div class="area">
+    <div class="titulo">
+    <h2>Áreas da Astronomia</h2>
+    </div>
+    
+    <div class="box">
+    <div class="card-9">
+      <div class="texto2">
+    <h5>Astrobiologia:</h5>
+    <p>Astrobiologia é uma recente área de pesquisa
+              científica que estuda a vida no Universo, em
+               conexão com o ambiente astronômico.</p>
+                <br>
+                <p>
+                  <a class="button" href="http://www.space-awareness.org/pt/careers/career/o-que-e-um-astrobiologo/" target="_blank">Saiba Mais</a>
+                </p><img src="../Astronomia2/img/gifterra.gif">
+      </div>
+    </div>
+    
+    <div class="card-9">
+      <div class="texto2">
+    <h5>Astrofísica:</h5>
+    <p>É o estudo das propriedades físicas dos corpos
+      celestes, como sua densidade, temperatura,
+       luminosidade, entre outros.</p>
+       <br>
+                <p>
+                  <a class="button" href="https://mundoeducacao.uol.com.br/fisica/astrofisica.htm" target="_blank">Saiba Mais</a>
+                </p>
+                <img src="../Astronomia2/img/gif-sol.gif">
+      </div>
+    </div>
+    
+    <div class="card-9">
+      <div class="texto2">
+    <h5>Astronomia planetária:</h5>
+      
+    <p>Estudo dos sistemas planetários, com ênfase
+      no sistema solar, que reúne física nuclear,
+       geologia, meteorologia etc...</p>
+       <br>
+                <p>
+                  <a class="button" href="https://www.minasjr.com.br/planetologia-comparada/" target="_blank">Saiba Mais</a>
+                </p>
+                <img src="../Astronomia2/img/gif_lua.gif">
+      </div>
+    </div>
+    </div>
+    
+    </section>
+  
+    
+    <!----Competência--->
+    <section id="Competência">
+        <center>
+    <div class="competencia">
+      <div class="sobre2">
+        <img src="../Astronomia2/img/jupiter_gif.gif">
+        <div class="about-texto2">
+          <h2>Competência</h2>
+          <div class="card-3">
+      
+      <P>Conhecer as relações entre os movimentos da Terra,
+      da Lua e do Sol para a descrição de fenômenos 
+      astronômicos (duração do dia/noite, estações
+      do ano, fases da lua, eclipses, marés etc.).
+      Reconhecer ordens de grandeza de medidas 
+      astronômicas.
+      <br><br>
+      Compreender os conceitos de velocidade e aceleração
+      associados ao movimento dos planetas associados ao
+      movimento dos planetas.
+      <br>
+      Perceber a relação algébrica de proporcionalidade 
+      direta com o produto das massas e inversa com o 
+      quadrado da distância, da Lei da Gravitação Universal
+      de Newton.
+    </P>
+    <a class="button" href="https://www.catho.com.br/carreira-sucesso/colunistas/noticias/a-carreira-na-area-de-astronomia/" target="_blank">Saiba Mais</a>
+      </div>
+        </div>
+      </div>
+    </center>
+      </section>
+    
+    
+<!---Faculdade-->
+<center>
+    <section id="Faculdade Nacionais">
+    <div class="faculdade">
+      <h2>Faculdade Nacionais</h2>
+     <div class="container">
+      <div class="card-5">
+        <div class="img7">
+          <a href="https://dfi.ufs.br/pagina/9055-graduacao" target="_blank">
+          <img src="../Astronomia2/img/ufs_branco.png">
+        </a>
+        </div>
+        <div class="text1">
+          <h3>Universidade Federal do Sergipe</h3>
+          <p>A Universidade Federal de Sergipe é uma instituição
+             pública federal localizada no município de São Cristóvão,
+             Sergipe, Brasil. A UFS constitui uma das mais importantes
+             universidades do Norte </p>
+        </div>
+      </div>
+    
+      <div class="card-5">
+        <div class="img7">
+          <a href="https://www5.usp.br/ensino/graduacao/cursos-oferecidos/astronomia/" target="_blank">
+          <img src="../Astronomia2/img/USP.jpg">
+        </a>
+        </div>
+        <div class="text1">
+          <h3>Universidade de São Paulo</h3>
+          <p>A Universidade de São Paulo é a maior e mais importante 
+            universidade pública do Brasil, uma das mais importantes
+             da Ibero-América. </p>
+        </div>
+      </div>
+      <div class="card-5">
+        <div class="img7">
+          <a href="https://xn--graduao-2wa9a.ufrj.br/index.php/cursos-de-graduao-mainmenu-124/156-cursos/a/103-astronomia" target="_blank">
+          <img src="../Astronomia2/img/UFRJ.png">
+        </a>
+        </div>
+        <div class="text1">
+          <h3>Universidade Federal do Rio De Janeiro</h3>
+          <p>A Universidade Federal do Rio de Janeiro, também denominada
+             Universidade do Brasil, é uma universidade federal do Brasil 
+             e um centro de excelência em ensino e pesquisa no país.</p>
+        </div>
+      </div>
+     </div>
+    </section>
+        
+<!---Faculdade-->
+<center>
+    <section id="Faculdade-2">
+    <div class="faculdade">
+      <h2>Faculdade Internacionais</h2>
+     <div class="container">
+      <div class="card-5">
+        <div class="img9">
+          <a href="https://www.harvard.edu/" target="_blank">
+          <img src="../Astronomia2/img/Harvard-logo.jpg">
+        </a>
+        </div>
+        <div class="text1">
+          <h3>Universidade de Harvard</h3>
+          <p>Universidade Harvard é uma universidade privada
+             situada na cidade de Cambridge, estado de Massachusetts, 
+             nos Estados Unidos.  </p>
+        </div>
+      </div>
+    
+      <div class="card-5">
+        <div class="img9">
+          <a href="https://www.cambridge.org/" target="_blank">
+          <img src="../Astronomia2/img/cambridge-university.png">
+        </a>
+        </div>
+        <div class="text1">
+          <h3>Universidade de Cambridge</h3>
+          <p>A Universidade de Cambridge, ou Universidade de Cantabrígia
+             ou Universidade de Cambrígia é uma tradicional instituição 
+             de ensino superior pública que localiza-se na cidade de Cambridge</p>
+        </div>
+      </div>
+      <div class="card-5">
+        <div class="img9">
+          <a href="https://www.stanford.edu/" target="_blank">
+          <img src="../Astronomia2/img/csm_stanford_uni.jpeg" width="200px">
+        </a>
+        </div>
+        <div class="text1">
+          <h3>Universidade Stanford</h3>
+          <p>A Universidade Stanford é uma universidade de pesquisa
+             privada situada em Palo Alto, Califórnia, Estados Unidos,
+             e uma das instituições mais prestigiadas do mundo, com a
+             maior seletividade de graduação</p>
+        </div>
+      </div>
+     </div>
+    </section>
+       
+       
+    <!---Graduação-->
+    <section id="grade">
+        <div class="Pós-graduação">
+          <div class="titulo6">
+            <h2>Grade Curricular</h2>
+            </div>
+            
+            <center><table class="content-table">
+          
+              <thead>
+               <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+               
+                 </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Álgebra Linear</td>
+                  <td>Astrofísica</td>
+                  <td>Computação</td>
+                  <td>Eletromagnetismo</td>
+                </tr>
+                <tr>
+                  <td>Estatística</td>
+                  <td>Física</td>
+                  <td>Matemática</td>
+                  <td>Mecânica Quântica</td>
+                </tr>
+                <tr>
+                  <td>Termodinâmica</td>
+                  <td>Prática Observacional em Astronomia</td>
+                  <td>Planetas e Sistemas Planetários</td>
+                  <td>Cálculo Diferencial e Integral</td>
+                </tr>
+                <tr>
+                    <td>Heliosismologia</td>
+                    <td>Instrumentos Metereológicos</td>
+                    <td>Princípios de DS de Algoritmos</td>
+                    <td>Vetores e Geometria</td>
+                    
+                  </tr>
+              </tbody>
+            
+                
+              </center>
+              
+            </table>
+        </section>
+ <!----Instrumentos---->
+ <section id="Instrumentos">
+  <center>
+  <div class="about">
+  <div class="sobre">
+    <img src="../Astronomia2/img/gif-sol.gif">
+    <div class="about-texto">
+      <h2>Instrumentos Astronômicos</h2>
+      <div class="card-1">
+  
+  <P>Binóculos: ideais para principiantes pela facilidade de ajuste do foco sobre o objeto que se quer
+    observar. A dificuldade provém da instabilidade das mãos devido aos tremores imperceptíveis que ao
+    serem ampliados acabam por fazer o objeto dançar no campo de visão, o que prejudica o foco. O ideal 
+    é usar os binóculos sobre algum tipo de tripé.
+  <br><br>
+  Telescópios: possibilitam a visão de objetos pequenos e distantes. A capacidade da visão do telescópio 
+  é ditada por sua abertura, que quanto maior, maior a capacidade de ampliação e de aproximação dos objetos.
+ Existem três tipos principais de telescópios, podendo ser usados por astrônomos amadores ou profissionais.
+ <br><br>
+ Radiotelescópios – captam as ondas de rádio emitidas por alguns astros e não a luz visível como os anteriores.
+  </P>
+  <button type="button">
+    <a class="button" href="https://pt.khanacademy.org/science/5-ano/terra-e-universo-5-ano/instrumentos-pticos-para-a-astronomia/a/instrumentos-para-observacoes-astronomicas" target="_blank">Saiba Mais</a>
+  </button>
+  </div>
+ 
+
+ </div>
+</div>
+</center>
+</section>
+
+    
+    <!---Nota de corte--->
+    <section id="NotadeCorte">
+    <div class="nota">
+      <div class="titulo5">
+        <h2>Nota de Corte</h2>
+        </div>
+        <br><br>
+    <center><table class="content-table">
+      
+      <thead>
+       <tr>
+        <th>Faculdade</th>
+        <th>Nota de Corte</th>
+        <th>Campus</th>
+        <th>Cidade</th>
+         </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>UFS</td>
+          <td>679.41</td>
+          <td>Unidade Sede</td>
+          <td>São Cristóvão - SE</td>
+        </tr>
+        <tr>
+          <td>USP</td>
+          <td> 44 </td>
+          <td>Cidade Universitária</td>
+          <td>São Paulo - SP</td>
+        </tr>
+        <tr>
+          <td>UFRJ</td>
+          <td>764,52</td>
+          <td>Obs do Valongo</td>
+          <td>Rio de Janeiro - RJ</td>
+        </tr>
+        <tr>
+            <td>Harvad</td>
+            <td>1500</td>
+            <td>Harvad University</td>
+            <td>Massachusetts - EUA</td>
+          </tr>
+          <tr>
+            <td>Stanford</td>
+            <td>730</td>
+            <td>Stanford University</td>
+            <td>Califórnia - EUA</td>
+          </tr>
+          <tr>
+            <td>Cambridge</td>
+            <td>195</td>
+            <td>University of Cambridge</td>
+            <td>Cambridge - EFL</td>
+          </tr>
+      </tbody>
+    </center>
+    </table>
+    </div>
+    </div>
+    </section>
+<section id="Instrumentos">
+ 
+</div>
+
+  </div>
+</section>
+
+
+
+ <!--graduação--->
+ <section id="Graduação">
+  <div class="area">
+  <div class="titulo">
+  <h2>Graduação</h2>
+  </div>
+  
+  <div class="box">
+  <div class="card-9">
+    <div class="texto2">
+  <h5>Bacharelado</h5>
+  <p>O curso de Bacharelado em Astronomia foi criado em 2009 e tem duração de 8 semestres. 
+    Como em todos os cursos de graduação da Universidade de São Paulo.</p>
+              <p>
+                <a class="button" href="https://www.iag.usp.br/astronomia/bacharelado-em-astronomia#:~:text=O%20curso%20de%20Bacharelado%20em,n%C3%A3o%20h%C3%A1%20cobran%C3%A7a%20de%20mensalidade." target="_blank">Saiba Mais</a>
+              </p><img src="../Astronomia2/img/jupiter_gif.gif">
+    </div>
+  </div>
+  
+  <div class="card-9">
+    <div class="texto2">
+  <h5>Doutorado</h5>
+  <p>O doutorado, ou doutorado direto, leva pelo menos mais 6 anos de estudo. Existem várias 
+    instituições brasileiras que oferecem cursos de pós-graduação em Astronomia. </p>
+              <p>
+                <a class="button" href="https://www.gov.br/pt-br/servicos/cursar-pos-graduacao-no-observatorio-nacional-mestrado-e-doutorado-em-astronomia" target="_blank">Saiba Mais</a>
+              </p>
+              <img src="../Astronomia2/img/netuno.gif">
+    </div>
+  </div>
+  
+  <div class="card-9">
+    <div class="texto2">
+  <h5>Mestrado:</h5>
+    
+  <p> O tempo estimado para conclusão dos cursos é de 24 meses para mestrado e 48 meses para doutorado.</p>
+              <p>
+                <a class="button" href="http://www.mp-astro.uefs.br/" target="_blank">Saiba Mais</a>
+              </p>
+              <img src="../Astronomia2/img/gif-sol.gif">
+    </div>
+  </div>
+  </div>
+  
+  </section>
+
+
+
+       <!----Sobre---->
+       <section id="Mercado de Trabalho">
+        <center>
+        <div class="about">
+        <div class="sobre">
+          <img src="../Astronomia2/img/gif_lua.gif" style="width:auto">
+          <div class="about-texto">
+            <h2>Mercado de Trabalho</h2>
+            <div class="card-1">
+        
+        <P>Mercado de trabalho
+          Os principais campos de atuação e que empregam astrônomos no Brasil são as universidades, 
+          centros de pesquisa e observatórios. Para atuar nesses espaços é fundamental a continuidade 
+          dos estudos em programas de pós-graduação como o mestrado e o doutorado.
+          <br><br>
+          O astrônomo pode atuar em universidades e instituições de ensino. Sua atuação também pode ser 
+          realizada em museus, exposições, laboratórios e observatórios.
+          <br><br>
+          O salário médio de um Astrônomo no Brasil é de R$ 3.542,01. Os estados onde a profissão de 
+          Astrônomo têm os melhores salários são Piauí, Tocantins e Distrito Federal. As especialidades 
+          com os melhores salários são Meteorologista.
+        </P>
+          <button type="button">
+            <a class="button" href="https://www.educamaisbrasil.com.br/educacao/carreira/astronomia-quais-sao-as-areas-de-atuacao-da-carreira" target="_blank">Saiba Mais</a>
+          </button>
+        </div>
+       </div>
+      </div>
+      </center>
+     </section>
+    
+    
+
+<!--Noticia--->
+
+
+<div class="container-fluid position-relative" id="not">
+  <h1 class="fw-semibold mb-4 mt-4 text-center p-2">Notícias Astronômicas</h1>
+  <script>
+      funcaoConteudo();
+  </script>
+  <a href="noticias.html"><button type="button" style="color:#add8e6 ;" class="btn btn-primary btn-lg btn-block reveal mb-5" id="btn-mais">Confira as últimas Noticias</button></a>
+</div>
+
+
+
+
+
+
+    <!---Video--->
+    <div class="video">
+      <div class="titulo7">
+       <center><h2>Vídeo</h2></center>
+      </div>
+    <center>
+      <div class="video2">
+      <iframe width="700" height="500" src="https://www.youtube.com/embed/VoNlJlgWXIE" 
+      title="Astronomia: Entrevista sobre essa profissão." frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen></iframe>
+    </center>
+    
+    </div>
+    </div>
+    
+    <!---Rodapé-->
+    
+    <section class="rodape">
+    <div class="social">
+    
+      <a href="https://www.facebook.com/ingridgabiela.deoliveirabarros">
+    <img src="../Astronomia2/img/facebook.png" width="45px" height="45px">
+      </a>
+ 
+          <a href="https://github.com/IngridBarros0307">
+            <img src="../Astronomia2/img/github.png" width="45px" height="45px">
+              </a>
+    
+         
+          <a href="https://www.instagram.com/indy_barros0307/">
+            <img src="../Astronomia2/img/logo-13.png" width="45px" height="45px">
+              </a>
+    
+    </div>
+  
+    <div class="texto3">
+     <br>
+      Trabalho Feira de Profissões
+      <br>
+      Escola: ETEC de Registro
+      <br>
+      Aluna: Ingrid Gabriela De Oliveira Barros
+      <br>
+      Orientadores: Profª Frederico Barbosa e Profª Paloma dos Santos.
+    </div>
+    
+    
+    </div>
+    
+    </section>
+    
+    
+    </body>
+    </html>
+</div>
+</body>
+</html>
