@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conteudo>
+    <postagem codigo="1">
+        <titulo>Evento cósmico raro lançou flash de luz na Terra a 8,5 bilhões de anos-luz de distância</titulo>
+        <corpo>Um flash incrivelmente brilhante que apareceu no céu noturno em fevereiro foi o resultado de uma 
+        estrela que se aproximou muito de um buraco negro supermassivo, encontrando seu fim prematuro lá quando
+        foi feito em pedaços.Mas o raro evento cósmico realmente ocorreu a 8,5 bilhões de anos-luz de distância da Terra.</corpo>
+        <imagem_1>ntc1.jpeg</imagem_1>
+    </postagem>
+
+    <postagem codigo="2">
+        <titulo>Telescópio James Webb observa duas das galáxias mais distantes já encontradas</titulo>
+             <corpo2>O telescópio espacial James Webb observou uma das primeiras galáxias formadas após o Big Bang, 
+              cerca de 350 milhões de anos após o início do universo.<br>
+              Esta, chamada GLASS-z12, e outra galáxia formada cerca de 450 milhões de anos após o Big Bang, 
+              foram encontradas durante o verão, logo após o poderoso telescópio espacial começar suas observações 
+              infravermelhas do cosmos.<br>
+              A capacidade do Webb de olhar mais profundamente no universo do que outros telescópios está revelando 
+              aspectos anteriormente ocultos do universo, incluindo galáxias incrivelmente distantes, como essas duas 
+              descobertas.<br>
+              A descoberta pode mudar a forma como os astrônomos entendem a galáxia e a formação de estrelas nos primeiros 
+              dias do universo.
+              </corpo2>
+        <imagem_1>ntc2.jpeg</imagem_1>
+    </postagem>
+
+    <postagem codigo="3">
+        <titulo>Gelo exótico pode revelar mistérios das anomalias magnéticas de Netuno e Urano</titulo>
+        <corpo3>O gelo comum – esse que é produzido nas geladeiras domésticas e conhecido cientificamente 
+        pelo nome de gelo Ih – não é a única fase cristalina da água. Há mais de 20 diferentes fases possíveis. 
+        Uma delas, chamada de “gelo superiônico” ou “gelo XVIII”, apresenta especial interesse.
+        Entre outros motivos, pelo fato de compor grande parte do estofo dos planetas Netuno e Urano, também 
+        conhecidos como “gigantes de gelo”.<br>
+        Na fase cristalina superiônica, a água perde sua identidade molecular (H2O); os íons negativos de oxigênio 
+        (O2-) dispõem-se em uma rede cristalina extensa; e os prótons, que constituem os íons positivos de hidrogênio 
+        (H+), formam um fluido que circula pela rede.</corpo3>
+        <imagem_1>ntc3.jpeg</imagem_1>
+    </postagem>
+    
+    <postagem codigo="4">
+        <titulo>Agência Espacial Europeia anuncia primeiro “parastronauta”</titulo>
+        <corpo3>Pela primeira vez em 13 anos, a Agência Espacial Europeia (ESA, em inglês) 
+        anunciou uma nova classe de astronautas em treinamento, incluindo o primeiro “parastronauta”
+        do mundo.<br>
+        A terceira geração de astronautas europeus inclui cinco astronautas de carreira, 11 membros 
+        de uma reserva de astronautas e um astronauta com deficiência física, que participarão de um 
+        projeto de viabilidade para incluir astronautas com deficiência em voos espaciais tripulados 
+        e possíveis missões futuras. Os 17 foram escolhidos entre mais de 22.500 candidatos de toda a 
+        Europa.</corpo3>
+        <imagem_1>ntc4.jpeg</imagem_1>
+    </postagem>
+    
+    <postagem codigo="5">
+        <titulo>Telescópio James Webb captura ampulheta cósmica durante nascimento de estrela</titulo>
+        <corpo3>O caos cósmico causado por uma estrela muito jovem foi capturado na imagem mais recente
+         do telescópio espacial James Webb da Nasa.<br>
+         A protoestrela no centro da imagem está escondida por uma nuvem escura de gás e poeira em forma
+        de ampulheta. A linha escura no meio da ampulheta é um disco protoplanetário – gás denso e poeira
+        que poderiam formar um planeta no futuro – do tamanho do nosso sistema solar. A luz da protoestrela
+        se espalha acima e abaixo deste disco, de acordo com um comunicado de imprensa da Nasa.</corpo3>
+        <imagem_1>ntc5.jpeg</imagem_1>
+    </postagem>
+</conteudo>
